@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# 启动: nohup bash ./checkNf.sh > /dev/null 2>&1 &
-# 停止: ps aux | grep checkNf.sh | grep -v grep | awk '{print $2}' | xargs kill -9
+# 启动: nohup bash ./nf.sh > /dev/null 2>&1 &
+# 停止: ps aux | grep nf.sh | grep -v grep | awk '{print $2}' | xargs kill -9
 IPv="4" # 使用 IPv4 还是 IPv6 检测
 UA_Browser="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0"
 url="https://www.netflix.com/title/70143836" # Netflix 自制剧URL (絕命毒師)
