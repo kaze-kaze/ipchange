@@ -8,3 +8,6 @@
 启动脚本, 执行 nohup bash ./nf.sh > /dev/null 2>&1 & 即可;
 停止脚本, 执行 ps aux | grep nf.sh | grep -v grep | awk '{print $2}' | xargs kill -9 即可.
 使用场景: 当解锁失效时, 动态IP的vps, 通过API自动更换IP; 非动态IP的vps, 自动换配置/出口等.
+
+ipv6 check脚本 
+通过检测 选出分配的IPv6段下最适合你网络的IP（到目标ipv6延迟最低的IP）
